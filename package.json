@@ -1,0 +1,18 @@
+{
+  "name": "vote.planetfour.org",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "publisssh": "^0.2.5"
+  },
+  "scripts": {
+    "start": "static ./public",
+    "deploy-to-staging": "publisssh ./public demo.zooniverse.org/planet-four-vote"
+  }
+}

@@ -1,0 +1,45 @@
+body {
+  background-attachment: fixed;
+  background-image: url(../images/backdrop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding: 50px 0 0 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 860px;
+}
+
+a {
+  color: rgba(164, 0, 0, 1);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgba(255, 0, 0, 1);
+}
+
+.logo-row {
+  margin-bottom: 25px;
+}
+
+.region {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.region .learn-more {
+  margin: 15px 0;
+  opacity: 0.8;
+}
+
+.footer {
+  padding: 0 0 130px 0;
+}
+
+.footer img {
+  margin: 0 0 10px 0;
+}
