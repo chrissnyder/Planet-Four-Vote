@@ -13,6 +13,7 @@
   },
   "scripts": {
     "start": "static ./public",
-    "deploy-to-staging": "publisssh ./public demo.zooniverse.org/planet-four-vote"
+    "deploy-to-staging": "publisssh ./public demo.zooniverse.org/planet-four-vote",
+    "deploy-to-production":" publisssh ./public zooniverse-static/www.planetfour.org/vote"
   }
 }
